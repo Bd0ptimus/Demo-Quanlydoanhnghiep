@@ -1,0 +1,78 @@
+@import 'setting';
+
+.checkout-sec{
+    padding : 15px;
+}
+.checkout-info-sec{
+    margin:auto;
+}
+
+.checkout-product-name{
+    font-weight : 700;
+    font-size: 17px;
+}
+
+.checkout-product-price {
+    font-size : 15px;
+    font-weight : 600;
+    color:red;
+}
+
+.checkout-left-number{
+    background-color:var(--hover-color);
+    border-radius:20px;
+    color:var(--product-lef-color);
+    font-weight: 700;
+    padding:5px;
+}
+
+.number-field .btn{
+    background-color: white;
+}
+
+#numberProduct{
+    border:solid 0px white;
+}
+
+@media screen and (min-width : 1020px) and (max-width: 10000px){
+    .checkout-sec{
+        width:50%;
+    }
+
+    .checkout-info-sec{
+        display:flex;
+    }
+}
+
+
+@media screen and (min-width : 820px) and (max-width: 1020px){
+    .checkout-sec{
+        width:50%;
+    }
+
+    .checkout-info-sec{
+        display:flex;
+    }
+}
+
+
+@media screen and (min-width : 450px) and (max-width: 820px){
+    .checkout-sec{
+        width:50%;
+    }
+
+    .checkout-info-sec{
+        display:flex;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .checkout-sec{
+        width:100%;
+    }
+
+    .checkout-info-sec{
+        display:block;
+    }
+}

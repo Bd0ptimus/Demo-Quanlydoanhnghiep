@@ -1,0 +1,14 @@
+@mixin remove-margin-p{
+    margin:0px;
+}
+// --main-color : #015C9A;
+:root{
+    --product-name:rgb(3,93,156);
+    --product-lef-color: #3CB72C;
+    --main-color :#FED166; /*#015C9A;*/
+    --hover-color: white;
+    --box-shadow-set : inset 0 1px #535050, inset 1px 0 #535050, inset -1px 0 #535050, inset 0 -1px #535050, 0 2px #535050, 0 3px #535050, 0 4px 2px rgb(0 0 0 / 40%);
+    color:white;
+    --chart-background: #F2F3F7;
+    --chart-title-color:#758489;
+}

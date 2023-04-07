@@ -1,0 +1,75 @@
+@import 'setting';
+
+@media screen and (min-width : 1020px) and (max-width: 10000px){
+    .payments{
+        display:flex;
+    }
+
+    .payment-text-sec{
+        width: 60%;
+    }
+
+    .payment-qr-sec{
+        width: 40%;
+
+    }
+}
+
+
+@media screen and (min-width : 820px) and (max-width: 1020px){
+    .payments{
+        display:flex;
+    }
+    .payment-text-sec{
+        width: 60%;
+    }
+    .payment-qr-sec{
+        width: 40%;
+
+    }
+}
+
+
+@media screen and (min-width : 450px) and (max-width: 820px){
+    .payments{
+        display:flex;
+    }
+    .payment-text-sec{
+        width: 50%;
+    }
+    .payment-qr-sec{
+        width: 50%;
+
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .payments{
+        display:block;
+    }
+    .payment-text-sec{
+        width: 100%;
+    }
+    .payment-qr-sec{
+        width: 100%;
+
+    }
+}
+.payment-info{
+    margin : 10px 0px;
+}
+
+.payment-info p{
+    margin : 0px;
+}
+.payment-info-text{
+    font-size: 15px;
+    font-weight: 600;
+    color:var(--product-name);
+}
+
+.payment-info-title{
+    font-size: 16px;
+    font-weight: 700;
+}
